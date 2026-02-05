@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS EXAM System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-overlay"></div>
+
+    <div class="container">
+        <!-- Auth Screen -->
+        <div id="auth-screen" class="screen glass active">
+            <div class="auth-header">
+                <div class="auth-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path
+                            d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.3c.4-.2.6-.6.5-1.1Z" />
+                    </svg>
+                </div>
+                <h1 class="logo">CSS <span>EXAM</span></h1>
+                <p class="subtitle">Secure Examination Access</p>
+            </div>
+
+            <div class="auth-box">
+
+
+                <form id="auth-form">
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="name@example.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="••••••••" required>
+                    </div>
+                    <button type="submit" id="auth-submit" class="primary-btn">Sign In</button>
+                </form>
+                <div id="auth-error" class="error-msg hidden"></div>
+            </div>
+        </div>
+
+        <!-- Home Screen -->
+        <div id="home-screen" class="screen glass hidden">
+            <div class="header-actions">
+                <span id="user-display"></span>
+                <div style="display: flex; gap: 0.5rem;">
+                    <button id="fullscreen-btn" class="secondary-btn small">Full Screen</button>
+                    <button id="logout-btn" class="secondary-btn small">Logout</button>
+                </div>
+            </div>
+            <header>
+                <h1 class="logo">CSS <span>EXAM</span></h1>
+                <h1>CSS EXAM <span class="gold-text">Certification</span></h1>
+                <p>Prepare for your career with our randomized 100-question training examination.</p>
+            </header>
+
+            <div class="stats-overview">
+                <div class="stat-card">
+                    <span class="stat-value">250+</span>
+                    <span class="stat-label">Questions</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">100</span>
+                    <span class="stat-label">Per Test</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value">Pass</span>
+                    <span class="stat-label">80% Required</span>
+                </div>
+            </div>
+
+            <button id="start-btn" class="primary-btn">Start Examination</button>
+            <button id="resume-btn" class="secondary-btn hidden">Resume Previous Session</button>
+        </div>
+
+        <!-- Test Screen -->
+        <div id="test-screen" class="screen glass hidden">
+            <div class="test-header">
+                <div class="progress-container">
+                    <div class="progress-text">
+                        <span>Progress</span>
+                        <span>Question <span id="current-index">1</span> of <span id="total-questions">100</span></span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div id="progress-bar-fill" class="progress-bar-fill"></div>
+                    </div>
+                </div>
+                <div id="timer" class="test-timer">00:00</div>
+            </div>
+
+            <div class="question-container">
+                <h2 id="question-text">Loading question...</h2>
+                <div id="options-list" class="options-list">
+                    <!-- Options injected here -->
+                </div>
+            </div>
+
+            <div class="test-footer">
+                <button id="prev-btn" class="nav-btn" disabled>Previous</button>
+                <button id="next-btn" class="nav-btn">Next</button>
+                <button id="finish-btn" class="nav-btn finish-btn hidden">Finish Test</button>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="result-screen" class="screen glass hidden">
+            <h1 class="logo">TEST <span>RESULTS</span></h1>
+            <div class="score-container">
+                <div class="score-circle">
+                    <span id="final-score">0</span>%
+                </div>
+                <div id="result-status" class="result-status">PASSED</div>
+                <p class="subtitle" style="margin-top: 1rem; margin-bottom: 0;">Verified Score</p>
+            </div>
+
+            <div class="score-details" style="text-align: center; margin-bottom: 2rem; color: var(--text-secondary);">
+                <p>Correct Answers: <span id="correct-count" style="color: var(--success); font-weight: 700;">0</span> /
+                    100</p>
+            </div>
+
+            <div class="review-section">
+                <h3>Detailed Review</h3>
+                <div id="wrong-answers-list" class="wrong-answers-list">
+                    <!-- Wrong answers here -->
+                </div>
+            </div>
+
+            <button id="restart-btn" class="primary-btn">Start New Examination</button>
+        </div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+        import { getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+        import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
+
+        window.firebaseModular = {
+            initializeApp,
+            getAuth, signInWithEmailAndPassword, onAuthStateChanged, signOut,
+            getDatabase, ref, set, onValue
+        };
+    </script>
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>
