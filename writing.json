@@ -1,0 +1,350 @@
+{
+    "authority": "Libyan Civil Aviation Authority",
+    "department": "Flight Safety Department - PEL Section",
+    "exam": "Cabin Crew Knowledge",
+    "total_questions": 41,
+    "questions": [
+        {
+            "id": 1,
+            "question": "In the event of loss of electrical power, which lighting systems will illuminate in the cabin?",
+            "answer": [
+                "Floor path lighting",
+                "Ceiling emergency exit signs",
+                "Overwing / exit emergency lights"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "State the steps of oven fire procedures.",
+            "answer": [
+                "Switch off all electrical power",
+                "Inform the Captain",
+                "Take fire extinguisher, PBE and fireproof gloves",
+                "Open oven door slightly",
+                "If fire still present, discharge extinguisher",
+                "Close oven door"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "What is the task of cabin crew prior to landing?",
+            "answer": [
+                "Ensure tray tables are stowed and locked",
+                "Seatbacks in full upright position",
+                "Seatbelts securely fastened",
+                "Secure lap-held infants",
+                "Window blinds open"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "What is your action if a window is cracked?",
+            "answer": [
+                "Move passengers away from the window",
+                "Fasten seatbelts",
+                "Inform the Captain immediately"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "What is the easy identification of crew in case of emergency evacuation?",
+            "answer": [
+                "Uniform or jacket",
+                "Cap",
+                "Power megaphone"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Who is a passenger (PAX)?",
+            "answer": "Any ticket holder aged 2 years or more"
+        },
+        {
+            "id": 7,
+            "question": "What are the four types of hijackers?",
+            "answer": [
+                "Criminals",
+                "Mentally unbalanced persons",
+                "Refugees",
+                "Terrorists"
+            ]
+        },
+        {
+            "id": 8,
+            "question": "State five emergency equipment.",
+            "answer": [
+                "Fire extinguisher",
+                "Oxygen bottle",
+                "Power megaphone",
+                "Fire axe",
+                "Smoke hood or goggles"
+            ]
+        },
+        {
+            "id": 9,
+            "question": "Define WCHC handicapped passenger.",
+            "answer": "A passenger who cannot move independently and requires full assistance"
+        },
+        {
+            "id": 10,
+            "question": "When should the passenger safety briefing be conducted?",
+            "answer": [
+                "Before take-off",
+                "Before landing",
+                "In preparation for emergency landing"
+            ]
+        },
+        {
+            "id": 11,
+            "question": "When does the cockpit door open automatically?",
+            "answer": "Only during decompression"
+        },
+        {
+            "id": 12,
+            "question": "When do emergency lights activate automatically?",
+            "answer": "When the aircraft loses electrical power"
+        },
+        {
+            "id": 13,
+            "question": "What are the elements of fire?",
+            "answer": [
+                "Fuel",
+                "Oxygen",
+                "Heat"
+            ]
+        },
+        {
+            "id": 14,
+            "question": "While checking the crash axe, it must be:",
+            "answer": "Sealed and securely in place"
+        },
+        {
+            "id": 15,
+            "question": "What does S.O.S stand for?",
+            "answer": "Save Our Souls"
+        },
+        {
+            "id": 16,
+            "question": "State five responsibilities of the Purser.",
+            "answer": [
+                "Apply safety and security standards",
+                "Provide effective leadership",
+                "Liaise between cockpit and cabin crew",
+                "Ensure procedures are followed",
+                "Report incidents to the Captain and management"
+            ]
+        },
+        {
+            "id": 17,
+            "question": "Correct use of water fire extinguisher (H2O).",
+            "answer": [
+                "Turn handle clockwise fully",
+                "Aim at base of fire",
+                "Press trigger",
+                "Sweep side to side"
+            ]
+        },
+        {
+            "id": 18,
+            "question": "Steps to use ELT Rescue 99 on water.",
+            "answer": [
+                "Unroll lanyards",
+                "Attach to life raft",
+                "Place in water"
+            ]
+        },
+        {
+            "id": 19,
+            "question": "When and where should life jackets be inflated?",
+            "answer": {
+                "adult": "After leaving the aircraft",
+                "infant": "During cabin preparation"
+            }
+        },
+        {
+            "id": 20,
+            "question": "Steps to release escape slide from girt bar.",
+            "answer": [
+                "Remove flap",
+                "Pull white disconnection handle",
+                "Cut mooring line"
+            ]
+        },
+        {
+            "id": 21,
+            "question": "State the contents of an aircraft door.",
+            "answer": [
+                "Escape slide container",
+                "Door control handle",
+                "Arming system",
+                "Gust lock",
+                "Assist handle",
+                "Observation window",
+                "Residual pressure indicator",
+                "Slide arming indicator"
+            ]
+        },
+        {
+            "id": 22,
+            "question": "Duties of cabin crew upon evacuation command.",
+            "answer": [
+                "Immediately initiate evacuation",
+                "Direct passengers to usable exits"
+            ]
+        },
+        {
+            "id": 23,
+            "question": "What command will the Captain announce for evacuation?",
+            "answer": "Activation of evacuation alarms"
+        },
+        {
+            "id": 24,
+            "question": "How does cabin crew communicate heavy smoke to cockpit?",
+            "answer": "Using the interphone system"
+        },
+        {
+            "id": 25,
+            "question": "Purpose of the red manual inflation handle of escape slide.",
+            "answer": "Used if the slide fails to inflate automatically"
+        },
+        {
+            "id": 26,
+            "question": "Purpose of smoke detectors.",
+            "answer": "Provide visual and audible warning when smoke exceeds a preset level in lavatories"
+        },
+        {
+            "id": 27,
+            "question": "Operation of Halon fire extinguisher.",
+            "answer": [
+                "Pull safety pin",
+                "Aim at base of fire",
+                "Squeeze trigger",
+                "Sweep side to side"
+            ]
+        },
+        {
+            "id": 28,
+            "question": "Situations requiring rapid evacuation during take-off or landing.",
+            "answer": [
+                "Rejected take-off",
+                "Runway overrun",
+                "Engine fire",
+                "Bomb threat"
+            ]
+        },
+        {
+            "id": 29,
+            "question": "Evacuation commands for escape slides.",
+            "answer": [
+                "Form one line",
+                "Sit and slide or jump and slide"
+            ]
+        },
+        {
+            "id": 30,
+            "question": "Objective of first aid.",
+            "answer": [
+                "Save life",
+                "Improve patient condition"
+            ]
+        },
+        {
+            "id": 31,
+            "question": "Action if a passenger swallows a sharp object.",
+            "answer": "Perform abdominal thrusts (Heimlich manoeuvre)"
+        },
+        {
+            "id": 32,
+            "question": "How does cabin crew recognize rejected take-off?",
+            "answer": [
+                "Engine reverse thrust",
+                "Strong deceleration",
+                "Vibrations",
+                "Heavy braking"
+            ]
+        },
+        {
+            "id": 33,
+            "question": "Cabin crew actions in heavy smoke.",
+            "answer": [
+                "Inform cockpit",
+                "Instruct passengers to cover nose and mouth",
+                "Distribute wet towels"
+            ]
+        },
+        {
+            "id": 34,
+            "question": "When should cabin crew order 'Bend Over and Stay Down'?",
+            "answer": "During an unprepared emergency landing"
+        },
+        {
+            "id": 35,
+            "question": "Which portable electronic devices are completely prohibited onboard?",
+            "answer": [
+                "Radios and transmitters",
+                "Remote controlled toys",
+                "Printers",
+                "Laser pointers",
+                "Electronic cigarettes"
+            ]
+        },
+        {
+            "id": 36,
+            "question": "Sequential order of survival priorities.",
+            "answer": [
+                "Signaling",
+                "ELT",
+                "First aid",
+                "Shelter",
+                "Water",
+                "Food"
+            ]
+        },
+        {
+            "id": 37,
+            "question": "Which portable electronic devices are allowed onboard?",
+            "answer": [
+                "Laptops",
+                "CD players with headset",
+                "Electronic organizers",
+                "Shavers",
+                "Mobile phones as per company policy"
+            ]
+        },
+        {
+            "id": 38,
+            "question": "Who are the occupants of the aircraft?",
+            "answer": [
+                "Passengers",
+                "Flight crew",
+                "Cabin crew",
+                "Engineers"
+            ]
+        },
+        {
+            "id": 39,
+            "question": "What is hypoxia?",
+            "answer": "Insufficient oxygen supply to the brain"
+        },
+        {
+            "id": 40,
+            "question": "How to avoid fire in the lavatory?",
+            "answer": [
+                "Regular lavatory checks",
+                "Before meals",
+                "Before take-off and landing",
+                "When seatbelt sign is ON"
+            ]
+        },
+        {
+            "id": 41,
+            "question": "What are the duties of cabin crew prior to landing?",
+            "answer": [
+                "Ensure cabin is secure",
+                "Passengers seated with seatbelts fastened",
+                "Seatbacks upright and tray tables stowed",
+                "Window blinds open"
+            ]
+        }
+    ]
+}
