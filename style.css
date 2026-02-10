@@ -621,7 +621,14 @@ body {
 
 .test-footer {
     display: flex;
-    gap: 1rem;
+    flex-direction: row;
+    /* Desktop: side-by-side */
+    justify-content: space-between;
+    align-items: stretch;
+    /* Make buttons same height */
+    gap: 1.5rem;
+    width: 100%;
+    margin-top: 0.5rem;
 }
 
 .nav-btn {
@@ -629,6 +636,16 @@ body {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid var(--glass-border);
     color: var(--text-primary);
+    padding: 1.5rem 2rem;
+    /* Increased padding */
+    font-size: 1.1rem;
+    /* Larger font */
+    min-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    /* Ensure uniform large height */
 }
 
 #next-btn {
@@ -697,6 +714,28 @@ body.light-mode #prev-btn {
     .stats-overview {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    .test-footer {
+        flex-direction: column;
+        /* Normal flow: Nav on top, Quit on bottom */
+        gap: 1rem;
+    }
+
+    .nav-controls {
+        gap: 0.75rem;
+    }
+
+    .nav-btn {
+        padding: 1.25rem 1rem !important;
+        /* Large but fits screen */
+        font-size: 1.1rem !important;
+        min-height: 56px !important;
+    }
+
+    .secondary-btn#quit-btn {
+        width: 100%;
+        margin-top: 0.5rem;
     }
 }
 

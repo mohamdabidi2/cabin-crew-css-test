@@ -6,7 +6,7 @@
       "Make sure that the oven doesn't contain paper or any other stowed stuff.",
       "Make sure that the oven trays empty of spilled food and grease.",
       "Make sure that the galley's area clean and tidy.",
-      "All of the above answers are correct."
+      "{Make sure that the oven doesn't contain paper or any other stowed stuff.} & {Make sure that the oven trays empty of spilled food and grease.} & {Make sure that the galley's area clean and tidy.} are correct."
     ],
     "correctAnswer": "D",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -38,7 +38,7 @@
     "options": [
       "Emergency opening.",
       "Normal opening.",
-      "Both answers are correct."
+      "{Emergency opening.} & {Normal opening.} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -49,7 +49,7 @@
     "options": [
       "sudden drop of pressure and temperature, deep diving of A/C",
       "lighting of cabin signs & presentation of oxygen masks.",
-      "answers A & B are correct."
+      "{sudden drop of pressure and temperature, deep diving of A/C} & {lighting of cabin signs & presentation of oxygen masks.} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -247,7 +247,7 @@
     "options": [
       "WCHR (for Ramp ) can move up and down .",
       "WCHC (for Cabin ) cannot move completely.",
-      "both answers are correct"
+      "{WCHR (for Ramp ) can move up and down .} & {WCHC (for Cabin ) cannot move completely.} are correct."
     ],
     "correctAnswer": "B",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -336,7 +336,7 @@
     "options": [
       "number of cabin crew and seating arrangement.",
       "number and types of serviceable exits and emergency exits",
-      "answer A and B are correct"
+      "{number of cabin crew and seating arrangement.} & {number and types of serviceable exits and emergency exits} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -403,7 +403,7 @@
       "Drop of cabin masks from 02 stowage's.",
       "Emer. lights, \"seat belts & no smoking sign\" ON",
       "Aircraft diving- auto prerecorded announcement",
-      "All answer are correct"
+      "{Drop of cabin masks from 02 stowage's.} & {Emer. lights, \"seat belts & no smoking sign\" ON} & {Aircraft diving- auto prerecorded announcement} are correct."
     ],
     "correctAnswer": "D",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -414,7 +414,7 @@
     "options": [
       "from the cabin.",
       "from the cockpit.",
-      "answers A and B are correct."
+      "{from the cabin.} & {from the cockpit.} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -436,7 +436,7 @@
     "options": [
       "to check the outside area before opening the exit",
       "to check the outside area before starting the evacuation.",
-      "answers A & B are correct"
+      "{to check the outside area before opening the exit} & {to check the outside area before starting the evacuation.} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -469,7 +469,7 @@
       "Cabin crew stations",
       "Cockpit",
       "Lavatory's door indicator",
-      "All answers are correct"
+      "{Cabin crew stations} & {Cockpit} & {Lavatory's door indicator} are correct."
     ],
     "correctAnswer": "D",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -578,7 +578,7 @@
     "options": [
       "move oxygen bottles away from fire area.",
       "move passengers away from danger area.",
-      "both answers are correct."
+      "{move oxygen bottles away from fire area.} & {move passengers away from danger area.} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -589,7 +589,7 @@
     "options": [
       "shower the fire with water with permission from captain.",
       "inform the cockpit immediately and monitor the fire area.",
-      "answers a & b are correct."
+      "{shower the fire with water with permission from captain.} & {inform the cockpit immediately and monitor the fire area.} are correct."
     ],
     "correctAnswer": "A",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -633,7 +633,7 @@
       "the critical time during take- off and landing.",
       "heading any emergency situation can be happen.",
       "sudden A/C stop or A/C run out of the run- way.",
-      "answers A+B+C are correct."
+      "{the critical time during take- off and landing.} & {heading any emergency situation can be happen.} & {sudden A/C stop or A/C run out of the run- way.} are correct."
     ],
     "correctAnswer": "D",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -710,7 +710,7 @@
     "options": [
       "sudden drop of pressure and temperature, deep diving of A/C",
       "lighting of cabin signs & presentation of oxygen masks.",
-      "answers A & B are correct."
+      "{sudden drop of pressure and temperature, deep diving of A/C} & {lighting of cabin signs & presentation of oxygen masks.} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -755,7 +755,7 @@
       "slight turbulence passengers fasten them seat- belts",
       "slight turbulence ,fasten seat- belts sign ON cabin crew will continue the service",
       "severe turbulence ,cabin signs illuminates, service meals will stop",
-      "answers B and C are correct"
+      "{slight turbulence ,fasten seat- belts sign ON cabin crew will continue the service} & {severe turbulence ,cabin signs illuminates, service meals will stop} are correct."
     ],
     "correctAnswer": "D",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -766,7 +766,7 @@
     "options": [
       "Duration of work on the task, the length of the working period duty hours.",
       "Sleep deprivation, rest period, Noise, Kind of work, illness.",
-      "All choices are correct."
+      "{Duration of work on the task, the length of the working period duty hours.} & {Sleep deprivation, rest period, Noise, Kind of work, illness.} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -822,7 +822,7 @@
     "options": [
       "Make patrolling in the cabin especially during night flights.",
       "Check throwing cigarettes disposal in the waste bin.",
-      "Answer A And B are correct."
+      "{Make patrolling in the cabin especially during night flights.} & {Check throwing cigarettes disposal in the waste bin.} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -1031,7 +1031,7 @@
     "options": [
       "Hold on to the frame assist handle.",
       "Hold PAX back from the exit, during the exit opening and slide deployment sequence.",
-      "All answers are correct."
+      "{Hold on to the frame assist handle.} & {Hold PAX back from the exit, during the exit opening and slide deployment sequence.} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -1074,7 +1074,7 @@
     "options": [
       "to collect passengers on over wings.",
       "to be used as rope during evacuation",
-      "both Answers are correct."
+      "{to collect passengers on over wings.} & {to be used as rope during evacuation} are correct."
     ],
     "correctAnswer": "A",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -1141,7 +1141,7 @@
       "On land evacuation.",
       "On ditching when there is over wing exits",
       "When cabin equipped with life line",
-      "Answers B and C are corrects"
+      "{On ditching when there is over wing exits} & {When cabin equipped with life line} are correct."
     ],
     "correctAnswer": "D",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -1219,7 +1219,7 @@
     "options": [
       "drop of fixed 02 masks - emergency lights.",
       "seat- belts and no smoking signs ON - pre recorded announcement",
-      "all answers are correct."
+      "{drop of fixed 02 masks - emergency lights.} & {seat- belts and no smoking signs ON - pre recorded announcement} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -1231,7 +1231,7 @@
       "Number and type of serviceable exits",
       "Number and type of safety equipment",
       "Number of serviceable seats - Number of cabin crew",
-      "All answers are correct"
+      "{Number and type of serviceable exits} & {Number and type of safety equipment} & {Number of serviceable seats - Number of cabin crew} are correct."
     ],
     "correctAnswer": "D",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -1275,7 +1275,7 @@
     "options": [
       "Select arm lever to armed position, cross check, report",
       "Grasp girl bar, fit it to floor brackets , cross check, report",
-      "Answers A and B are correct"
+      "{Select arm lever to armed position, cross check, report} & {Grasp girl bar, fit it to floor brackets , cross check, report} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -1286,7 +1286,7 @@
     "options": [
       "Wait for aircraft complete stop ,check outside area.",
       "Wait for order - open door - check slide inflation - evacuate.",
-      "All answer are correct"
+      "{Wait for aircraft complete stop ,check outside area.} & {Wait for order - open door - check slide inflation - evacuate.} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -1330,7 +1330,7 @@
     "options": [
       "verbally.",
       "by demonstration.",
-      "both answers are correct."
+      "{verbally.} & {by demonstration.} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -1466,7 +1466,7 @@
       "To assist cabin crew during evacuation.",
       "To help passengers inside and outside aircraft",
       "To direct passengers away of aircraft",
-      "All answers are correct"
+      "{To assist cabin crew during evacuation.} & {To help passengers inside and outside aircraft} & {To direct passengers away of aircraft} are correct."
     ],
     "correctAnswer": "D",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -1488,7 +1488,7 @@
     "options": [
       "they are comfortable with opening the exits .",
       "they can perform the procedures they were briefed.",
-      "both answers are correct."
+      "{they are comfortable with opening the exits .} & {they can perform the procedures they were briefed.} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -1686,7 +1686,7 @@
     "options": [
       "minimum lighting in cabin & lighting outside emergency exits.",
       "illumination of marks & direction lighting to exits.",
-      "answers A & B are correct."
+      "{minimum lighting in cabin & lighting outside emergency exits.} & {illumination of marks & direction lighting to exits.} are correct."
     ],
     "correctAnswer": "C",
     "source": "CABIN CREW QUESTIONS 4.pdf"
@@ -1861,7 +1861,7 @@
       "Make sure that the oven doesn't contain paper or any other stowed stuff.",
       "Make sure that the oven trays empty of spilled food and grease.",
       "Make sure that the galley's area clean and tidy.",
-      "All of the above answers are correct."
+      "{Make sure that the oven doesn't contain paper or any other stowed stuff.} & {Make sure that the oven trays empty of spilled food and grease.} & {Make sure that the galley's area clean and tidy.} are correct."
     ],
     "correctAnswer": "D",
     "source": "CABIN CREW QUESTIONS 4.pdf"
