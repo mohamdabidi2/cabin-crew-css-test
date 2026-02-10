@@ -45,6 +45,7 @@ const dom = {
     startBtn: document.getElementById('start-btn'),
     resumeBtn: document.getElementById('resume-btn'),
     restartBtn: document.getElementById('restart-btn'),
+    featureTestBtn: document.getElementById('feature-test-btn'),
     prevBtn: document.getElementById('prev-btn'),
     nextBtn: document.getElementById('next-btn'),
     finishBtn: document.getElementById('finish-btn'),
@@ -147,9 +148,10 @@ async function init() {
     // Event Listeners
     dom.authForm.onsubmit = handleAuth;
     if (dom.fullscreenBtn) dom.fullscreenBtn.onclick = toggleFullScreen;
-    dom.startBtn.onclick = () => startTest(false);
-    dom.resumeBtn.onclick = () => startTest(true);
-    dom.restartBtn.onclick = () => startTest(false);
+    dom.startBtn.onclick = () => startTest({ resume: false, limit: 100, timeLimit: 3600 });
+    dom.featureTestBtn.onclick = () => startTest({ resume: false, limit: 50, timeLimit: 1800 });
+    dom.resumeBtn.onclick = () => startTest({ resume: true });
+    dom.restartBtn.onclick = () => startTest({ resume: false }); // Default to 100 on restart? Or previous limit? Let's stick to default 100 or current behavior.
     dom.prevBtn.onclick = () => navigate(-1);
     dom.nextBtn.onclick = () => navigate(1);
     dom.finishBtn.onclick = showResults;
@@ -236,7 +238,7 @@ function checkResume() {
     }
 }
 
-function startTest(resume = false) {
+function startTest({ resume = false, limit = 100, timeLimit = 3600 } = {}) {
     if (resume) {
         const saved = JSON.parse(localStorage.getItem(`test_state_${currentUser.uid}`));
         selectedQuestions = saved.selectedQuestions;
@@ -260,7 +262,7 @@ function startTest(resume = false) {
             return;
         }
 
-        selectedQuestions = shuffle(filteredQuestions).slice(0, 100).map(q => {
+        selectedQuestions = shuffle(filteredQuestions).slice(0, limit).map(q => {
             const correctText = q.options[q.correctAnswer.charCodeAt(0) - 65];
             const shuffledOptions = shuffle([...q.options]);
             const newCorrectIndex = shuffledOptions.indexOf(correctText);
@@ -272,7 +274,7 @@ function startTest(resume = false) {
         });
         currentIndex = 0;
         userAnswers = {};
-        timeLeft = 3600;
+        timeLeft = timeLimit;
     }
 
     showScreen(dom.testScreen);
